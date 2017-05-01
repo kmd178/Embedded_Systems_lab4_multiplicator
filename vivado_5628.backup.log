@@ -1,0 +1,30 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Sat Apr 29 12:47:24 2017
+# Process ID: 5628
+# Current directory: C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent11828 C:\Users\kmd17\Documents\GitHub\Embedded_Systems_Lab4_multiplicator\Embedded_Systems_Lab4_multiplicator.xpr
+# Log file: C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/vivado.log
+# Journal file: C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2016.4/data/ip'.
+open_project: Time (s): cpu = 00:00:09 ; elapsed = 00:00:06 . Memory (MB): peak = 782.523 ; gain = 118.180
+file mkdir C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.srcs/sim_1/new
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.srcs/sim_1/new/tb.v w ]
+add_files -fileset sim_1 C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.srcs/sim_1/new/tb.v
+ERROR: [filemgmt 20-1788] Illegal access of HADGNode between graph update events.
+ERROR: [filemgmt 20-1788] Illegal access of HADGNode between graph update events.
+ERROR: [filemgmt 20-1788] Illegal access of HADGNode between graph update events.
+ERROR: [filemgmt 20-1788] Illegal access of HADGNode between graph update events.
+update_compile_order -fileset sim_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Sun Apr 30 01:13:33 2017...

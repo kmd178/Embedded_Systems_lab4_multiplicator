@@ -1,0 +1,1559 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Sun Apr 30 18:44:02 2017
+# Process ID: 1732
+# Current directory: C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent4232 C:\Users\kmd17\Documents\GitHub\Embedded_Systems_Lab4_multiplicator\Embedded_Systems_Lab4_multiplicator.xpr
+# Log file: C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/vivado.log
+# Journal file: C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2016.4/data/ip'.
+open_project: Time (s): cpu = 00:00:10 ; elapsed = 00:00:08 . Memory (MB): peak = 803.129 ; gain = 151.902
+update_compile_order -fileset sim_1
+launch_simulation
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'TB5' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.sim/sim_1/behav'
+"xvlog -m64 --relax -prj TB5_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.srcs/sources_1/new/multiplicator.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module multiplicator
+WARNING: [VRFC 10-756] identifier idle is used before its declaration [C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.srcs/sources_1/new/multiplicator.v:11]
+WARNING: [VRFC 10-756] identifier idle is used before its declaration [C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.srcs/sources_1/new/multiplicator.v:12]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.srcs/sim_1/new/tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module TB5
+ERROR: [VRFC 10-1412] syntax error near : [C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.srcs/sim_1/new/tb.v:13]
+ERROR: [VRFC 10-1412] syntax error near + [C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.srcs/sim_1/new/tb.v:29]
+ERROR: [VRFC 10-1412] syntax error near } [C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.srcs/sim_1/new/tb.v:35]
+ERROR: [VRFC 10-1412] syntax error near + [C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.srcs/sim_1/new/tb.v:40]
+ERROR: [VRFC 10-1412] syntax error near } [C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.srcs/sim_1/new/tb.v:46]
+WARNING: [VRFC 10-2096] empty statement in sequential block [C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.srcs/sim_1/new/tb.v:11]
+INFO: [VRFC 10-2458] undeclared symbol slv_reg_wren, assumed default net type wire [C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.srcs/sim_1/new/tb.v:54]
+INFO: [VRFC 10-2458] undeclared symbol slv_reg_rden, assumed default net type wire [C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.srcs/sim_1/new/tb.v:54]
+INFO: [VRFC 10-2458] undeclared symbol X, assumed default net type wire [C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.srcs/sim_1/new/tb.v:54]
+INFO: [VRFC 10-2458] undeclared symbol signal_computation_ready, assumed default net type wire [C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.srcs/sim_1/new/tb.v:54]
+ERROR: [VRFC 10-1412] syntax error near , [C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.srcs/sim_1/new/tb.v:54]
+ERROR: [VRFC 10-60] N is not a constant [C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.srcs/sim_1/new/tb.v:5]
+ERROR: [VRFC 10-1775] range must be bounded by constant expressions [C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.srcs/sim_1/new/tb.v:5]
+ERROR: [VRFC 10-1280] procedural assignment to a non-register slv_reg_rden is not permitted, left-hand side should be reg/integer/time/genvar [C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.srcs/sim_1/new/tb.v:14]
+ERROR: [VRFC 10-1280] procedural assignment to a non-register slv_reg_rden is not permitted, left-hand side should be reg/integer/time/genvar [C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.srcs/sim_1/new/tb.v:14]
+ERROR: [VRFC 10-1280] procedural assignment to a non-register slv_reg_wren is not permitted, left-hand side should be reg/integer/time/genvar [C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.srcs/sim_1/new/tb.v:20]
+ERROR: [VRFC 10-1280] procedural assignment to a non-register slv_reg_wren is not permitted, left-hand side should be reg/integer/time/genvar [C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.srcs/sim_1/new/tb.v:20]
+ERROR: [VRFC 10-1280] procedural assignment to a non-register slv_reg_wren is not permitted, left-hand side should be reg/integer/time/genvar [C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.srcs/sim_1/new/tb.v:22]
+ERROR: [VRFC 10-1280] procedural assignment to a non-register slv_reg_wren is not permitted, left-hand side should be reg/integer/time/genvar [C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.srcs/sim_1/new/tb.v:22]
+ERROR: [VRFC 10-1280] procedural assignment to a non-register slv_reg_wren is not permitted, left-hand side should be reg/integer/time/genvar [C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.srcs/sim_1/new/tb.v:25]
+ERROR: [VRFC 10-1280] procedural assignment to a non-register slv_reg_wren is not permitted, left-hand side should be reg/integer/time/genvar [C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.srcs/sim_1/new/tb.v:25]
+ERROR: [VRFC 10-1280] procedural assignment to a non-register slv_reg_wren is not permitted, left-hand side should be reg/integer/time/genvar [C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.srcs/sim_1/new/tb.v:27]
+ERROR: [VRFC 10-1280] procedural assignment to a non-register slv_reg_wren is not permitted, left-hand side should be reg/integer/time/genvar [C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.srcs/sim_1/new/tb.v:27]
+ERROR: [VRFC 10-75] i is not a task [C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.srcs/sim_1/new/tb.v:30]
+INFO: [#UNDEF] Sorry, too many errors..
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.sim/sim_1/behav/xvlog.log'
+ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or 'C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.sim/sim_1/behav/xvlog.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'TB5' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.sim/sim_1/behav'
+"xvlog -m64 --relax -prj TB5_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.srcs/sources_1/new/multiplicator.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module multiplicator
+WARNING: [VRFC 10-756] identifier idle is used before its declaration [C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.srcs/sources_1/new/multiplicator.v:11]
+WARNING: [VRFC 10-756] identifier idle is used before its declaration [C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.srcs/sources_1/new/multiplicator.v:12]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.srcs/sim_1/new/tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module TB5
+INFO: [VRFC 10-2458] undeclared symbol slv_reg_wren, assumed default net type wire [C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.srcs/sim_1/new/tb.v:56]
+INFO: [VRFC 10-2458] undeclared symbol slv_reg_rden, assumed default net type wire [C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.srcs/sim_1/new/tb.v:56]
+INFO: [VRFC 10-2458] undeclared symbol X, assumed default net type wire [C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.srcs/sim_1/new/tb.v:56]
+INFO: [VRFC 10-2458] undeclared symbol signal_computation_ready, assumed default net type wire [C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.srcs/sim_1/new/tb.v:56]
+INFO: [VRFC 10-2458] undeclared symbol Y, assumed default net type wire [C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.srcs/sim_1/new/tb.v:56]
+ERROR: [VRFC 10-60] N is not a constant [C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.srcs/sim_1/new/tb.v:5]
+ERROR: [VRFC 10-1775] range must be bounded by constant expressions [C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.srcs/sim_1/new/tb.v:5]
+ERROR: [VRFC 10-1280] procedural assignment to a non-register slv_reg_wren is not permitted, left-hand side should be reg/integer/time/genvar [C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.srcs/sim_1/new/tb.v:13]
+ERROR: [VRFC 10-1280] procedural assignment to a non-register slv_reg_wren is not permitted, left-hand side should be reg/integer/time/genvar [C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.srcs/sim_1/new/tb.v:13]
+ERROR: [VRFC 10-1280] procedural assignment to a non-register slv_reg_rden is not permitted, left-hand side should be reg/integer/time/genvar [C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.srcs/sim_1/new/tb.v:14]
+ERROR: [VRFC 10-1280] procedural assignment to a non-register slv_reg_rden is not permitted, left-hand side should be reg/integer/time/genvar [C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.srcs/sim_1/new/tb.v:14]
+ERROR: [VRFC 10-1280] procedural assignment to a non-register slv_reg_wren is not permitted, left-hand side should be reg/integer/time/genvar [C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.srcs/sim_1/new/tb.v:20]
+ERROR: [VRFC 10-1280] procedural assignment to a non-register slv_reg_wren is not permitted, left-hand side should be reg/integer/time/genvar [C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.srcs/sim_1/new/tb.v:20]
+ERROR: [VRFC 10-1280] procedural assignment to a non-register slv_reg_wren is not permitted, left-hand side should be reg/integer/time/genvar [C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.srcs/sim_1/new/tb.v:22]
+ERROR: [VRFC 10-1280] procedural assignment to a non-register slv_reg_wren is not permitted, left-hand side should be reg/integer/time/genvar [C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.srcs/sim_1/new/tb.v:22]
+ERROR: [VRFC 10-1280] procedural assignment to a non-register slv_reg_wren is not permitted, left-hand side should be reg/integer/time/genvar [C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.srcs/sim_1/new/tb.v:25]
+ERROR: [VRFC 10-1280] procedural assignment to a non-register slv_reg_wren is not permitted, left-hand side should be reg/integer/time/genvar [C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.srcs/sim_1/new/tb.v:25]
+ERROR: [VRFC 10-1280] procedural assignment to a non-register slv_reg_wren is not permitted, left-hand side should be reg/integer/time/genvar [C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.srcs/sim_1/new/tb.v:27]
+ERROR: [VRFC 10-1280] procedural assignment to a non-register slv_reg_wren is not permitted, left-hand side should be reg/integer/time/genvar [C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.srcs/sim_1/new/tb.v:27]
+ERROR: [VRFC 10-1280] procedural assignment to a non-register X is not permitted, left-hand side should be reg/integer/time/genvar [C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.srcs/sim_1/new/tb.v:31]
+ERROR: [VRFC 10-1280] procedural assignment to a non-register X is not permitted, left-hand side should be reg/integer/time/genvar [C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.srcs/sim_1/new/tb.v:31]
+ERROR: [VRFC 10-1280] procedural assignment to a non-register slv_reg_wren is not permitted, left-hand side should be reg/integer/time/genvar [C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.srcs/sim_1/new/tb.v:32]
+ERROR: [VRFC 10-1280] procedural assignment to a non-register slv_reg_wren is not permitted, left-hand side should be reg/integer/time/genvar [C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.srcs/sim_1/new/tb.v:32]
+ERROR: [VRFC 10-1280] procedural assignment to a non-register slv_reg_wren is not permitted, left-hand side should be reg/integer/time/genvar [C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.srcs/sim_1/new/tb.v:34]
+INFO: [#UNDEF] Sorry, too many errors..
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.sim/sim_1/behav/xvlog.log'
+ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or 'C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.sim/sim_1/behav/xvlog.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'TB5' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.sim/sim_1/behav'
+"xvlog -m64 --relax -prj TB5_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.srcs/sources_1/new/multiplicator.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module multiplicator
+WARNING: [VRFC 10-756] identifier idle is used before its declaration [C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.srcs/sources_1/new/multiplicator.v:11]
+WARNING: [VRFC 10-756] identifier idle is used before its declaration [C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.srcs/sources_1/new/multiplicator.v:12]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.srcs/sim_1/new/tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module TB5
+ERROR: [VRFC 10-60] N is not a constant [C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.srcs/sim_1/new/tb.v:7]
+ERROR: [VRFC 10-1775] range must be bounded by constant expressions [C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.srcs/sim_1/new/tb.v:7]
+ERROR: [VRFC 10-91] button is not declared [C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.srcs/sim_1/new/tb.v:15]
+ERROR: [VRFC 10-1040] module TB5 ignored due to previous errors [C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.srcs/sim_1/new/tb.v:3]
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.sim/sim_1/behav/xvlog.log'
+ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or 'C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.sim/sim_1/behav/xvlog.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'TB5' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.sim/sim_1/behav'
+"xvlog -m64 --relax -prj TB5_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.srcs/sources_1/new/multiplicator.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module multiplicator
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.srcs/sim_1/new/tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module TB5
+ERROR: [VRFC 10-60] N is not a constant [C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.srcs/sim_1/new/tb.v:7]
+ERROR: [VRFC 10-1775] range must be bounded by constant expressions [C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.srcs/sim_1/new/tb.v:7]
+ERROR: [VRFC 10-91] button is not declared [C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.srcs/sim_1/new/tb.v:15]
+ERROR: [VRFC 10-1040] module TB5 ignored due to previous errors [C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.srcs/sim_1/new/tb.v:3]
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.sim/sim_1/behav/xvlog.log'
+ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or 'C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.sim/sim_1/behav/xvlog.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'TB5' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.sim/sim_1/behav'
+"xvlog -m64 --relax -prj TB5_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.srcs/sources_1/new/multiplicator.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module multiplicator
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.srcs/sim_1/new/tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module TB5
+ERROR: [VRFC 10-60] N is not a constant [C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.srcs/sim_1/new/tb.v:7]
+ERROR: [VRFC 10-1775] range must be bounded by constant expressions [C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.srcs/sim_1/new/tb.v:7]
+ERROR: [VRFC 10-91] button is not declared [C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.srcs/sim_1/new/tb.v:15]
+ERROR: [VRFC 10-1040] module TB5 ignored due to previous errors [C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.srcs/sim_1/new/tb.v:3]
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.sim/sim_1/behav/xvlog.log'
+ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or 'C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.sim/sim_1/behav/xvlog.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'TB5' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.sim/sim_1/behav'
+"xvlog -m64 --relax -prj TB5_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.srcs/sources_1/new/multiplicator.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module multiplicator
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.srcs/sim_1/new/tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module TB5
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.sim/sim_1/behav'
+Vivado Simulator 2016.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.4/bin/unwrapped/win64.o/xelab.exe -wto c0c54b3e7c30476994164df66eb97e7f --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot TB5_behav xil_defaultlib.TB5 xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+ERROR: [VRFC 10-529] concurrent assignment to a non-net signal_computation_ready is not permitted [C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.srcs/sim_1/new/tb.v:11]
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.sim/sim_1/behav/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.sim/sim_1/behav/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'TB5' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.sim/sim_1/behav'
+"xvlog -m64 --relax -prj TB5_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.srcs/sources_1/new/multiplicator.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module multiplicator
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.srcs/sim_1/new/tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module TB5
+INFO: [VRFC 10-2458] undeclared symbol signal_computation_ready, assumed default net type wire [C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.srcs/sim_1/new/tb.v:12]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.sim/sim_1/behav'
+Vivado Simulator 2016.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.4/bin/unwrapped/win64.o/xelab.exe -wto c0c54b3e7c30476994164df66eb97e7f --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot TB5_behav xil_defaultlib.TB5 xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+ERROR: [VRFC 10-529] concurrent assignment to a non-net Y is not permitted [C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.srcs/sim_1/new/tb.v:12]
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.sim/sim_1/behav/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.sim/sim_1/behav/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'TB5' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.sim/sim_1/behav'
+"xvlog -m64 --relax -prj TB5_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.srcs/sources_1/new/multiplicator.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module multiplicator
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.srcs/sim_1/new/tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module TB5
+INFO: [VRFC 10-2458] undeclared symbol signal_computation_ready, assumed default net type wire [C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.srcs/sim_1/new/tb.v:12]
+INFO: [VRFC 10-2458] undeclared symbol Y, assumed default net type wire [C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.srcs/sim_1/new/tb.v:12]
+ERROR: [VRFC 10-1280] procedural assignment to a non-register Y is not permitted, left-hand side should be reg/integer/time/genvar [C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.srcs/sim_1/new/tb.v:47]
+ERROR: [VRFC 10-1280] procedural assignment to a non-register Y is not permitted, left-hand side should be reg/integer/time/genvar [C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.srcs/sim_1/new/tb.v:47]
+ERROR: [VRFC 10-1040] module TB5 ignored due to previous errors [C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.srcs/sim_1/new/tb.v:3]
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.sim/sim_1/behav/xvlog.log'
+ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or 'C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.sim/sim_1/behav/xvlog.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'TB5' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.sim/sim_1/behav'
+"xvlog -m64 --relax -prj TB5_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.srcs/sources_1/new/multiplicator.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module multiplicator
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.srcs/sim_1/new/tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module TB5
+INFO: [VRFC 10-2458] undeclared symbol signal_computation_ready, assumed default net type wire [C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.srcs/sim_1/new/tb.v:12]
+INFO: [VRFC 10-2458] undeclared symbol Y, assumed default net type wire [C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.srcs/sim_1/new/tb.v:12]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.sim/sim_1/behav'
+Vivado Simulator 2016.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.4/bin/unwrapped/win64.o/xelab.exe -wto c0c54b3e7c30476994164df66eb97e7f --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot TB5_behav xil_defaultlib.TB5 xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 1 differs from formal bit length 32 for port Y [C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.srcs/sim_1/new/tb.v:12]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.multiplicator
+Compiling module xil_defaultlib.TB5
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot TB5_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "TB5_behav -key {Behavioral:sim_1:Functional:TB5} -tclbatch {TB5.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2016.4
+Time resolution is 1 ps
+source TB5.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'TB5_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 859.434 ; gain = 6.117
+relaunch_sim
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'TB5' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.sim/sim_1/behav'
+"xvlog -m64 --relax -prj TB5_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.srcs/sources_1/new/multiplicator.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module multiplicator
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.srcs/sim_1/new/tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module TB5
+INFO: [VRFC 10-2458] undeclared symbol signal_computation_ready, assumed default net type wire [C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.srcs/sim_1/new/tb.v:11]
+INFO: [VRFC 10-2458] undeclared symbol Y, assumed default net type wire [C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.srcs/sim_1/new/tb.v:11]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.sim/sim_1/behav'
+Vivado Simulator 2016.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.4/bin/unwrapped/win64.o/xelab.exe -wto c0c54b3e7c30476994164df66eb97e7f --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot TB5_behav xil_defaultlib.TB5 xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 1 differs from formal bit length 32 for port Y [C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.srcs/sim_1/new/tb.v:11]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.multiplicator
+Compiling module xil_defaultlib.TB5
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot TB5_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+Vivado Simulator 2016.4
+Time resolution is 1 ps
+relaunch_sim
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'TB5' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.sim/sim_1/behav'
+"xvlog -m64 --relax -prj TB5_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.srcs/sources_1/new/multiplicator.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module multiplicator
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.srcs/sim_1/new/tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module TB5
+INFO: [VRFC 10-2458] undeclared symbol signal_computation_ready, assumed default net type wire [C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.srcs/sim_1/new/tb.v:11]
+INFO: [VRFC 10-2458] undeclared symbol Y, assumed default net type wire [C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.srcs/sim_1/new/tb.v:11]
+ERROR: [VRFC 10-1412] syntax error near X [C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.srcs/sim_1/new/tb.v:26]
+ERROR: [VRFC 10-1040] module TB5 ignored due to previous errors [C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.srcs/sim_1/new/tb.v:3]
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.sim/sim_1/behav/xvlog.log'
+ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or 'C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.sim/sim_1/behav/xvlog.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+ERROR: [Common 17-69] Command failed: ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+
+relaunch_sim
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'TB5' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.sim/sim_1/behav'
+"xvlog -m64 --relax -prj TB5_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.srcs/sources_1/new/multiplicator.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module multiplicator
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.srcs/sim_1/new/tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module TB5
+INFO: [VRFC 10-2458] undeclared symbol signal_computation_ready, assumed default net type wire [C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.srcs/sim_1/new/tb.v:11]
+INFO: [VRFC 10-2458] undeclared symbol Y, assumed default net type wire [C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.srcs/sim_1/new/tb.v:11]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.sim/sim_1/behav'
+Vivado Simulator 2016.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.4/bin/unwrapped/win64.o/xelab.exe -wto c0c54b3e7c30476994164df66eb97e7f --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot TB5_behav xil_defaultlib.TB5 xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 1 differs from formal bit length 32 for port Y [C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.srcs/sim_1/new/tb.v:11]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.multiplicator
+Compiling module xil_defaultlib.TB5
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot TB5_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+Vivado Simulator 2016.4
+Time resolution is 1 ps
+relaunch_sim
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'TB5' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.sim/sim_1/behav'
+"xvlog -m64 --relax -prj TB5_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.srcs/sources_1/new/multiplicator.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module multiplicator
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.srcs/sim_1/new/tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module TB5
+INFO: [VRFC 10-2458] undeclared symbol signal_computation_ready, assumed default net type wire [C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.srcs/sim_1/new/tb.v:11]
+INFO: [VRFC 10-2458] undeclared symbol Y, assumed default net type wire [C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.srcs/sim_1/new/tb.v:11]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.sim/sim_1/behav'
+Vivado Simulator 2016.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.4/bin/unwrapped/win64.o/xelab.exe -wto c0c54b3e7c30476994164df66eb97e7f --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot TB5_behav xil_defaultlib.TB5 xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 1 differs from formal bit length 32 for port Y [C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.srcs/sim_1/new/tb.v:11]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.multiplicator
+Compiling module xil_defaultlib.TB5
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot TB5_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+Vivado Simulator 2016.4
+Time resolution is 1 ps
+relaunch_sim
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'TB5' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.sim/sim_1/behav'
+"xvlog -m64 --relax -prj TB5_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.srcs/sources_1/new/multiplicator.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module multiplicator
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.srcs/sim_1/new/tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module TB5
+INFO: [VRFC 10-2458] undeclared symbol signal_computation_ready, assumed default net type wire [C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.srcs/sim_1/new/tb.v:11]
+INFO: [VRFC 10-2458] undeclared symbol Y, assumed default net type wire [C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.srcs/sim_1/new/tb.v:11]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.sim/sim_1/behav'
+Vivado Simulator 2016.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.4/bin/unwrapped/win64.o/xelab.exe -wto c0c54b3e7c30476994164df66eb97e7f --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot TB5_behav xil_defaultlib.TB5 xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 1 differs from formal bit length 32 for port Y [C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.srcs/sim_1/new/tb.v:11]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.multiplicator
+Compiling module xil_defaultlib.TB5
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot TB5_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+Vivado Simulator 2016.4
+Time resolution is 1 ps
+relaunch_sim
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'TB5' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.sim/sim_1/behav'
+"xvlog -m64 --relax -prj TB5_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.srcs/sources_1/new/multiplicator.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module multiplicator
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.srcs/sim_1/new/tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module TB5
+INFO: [VRFC 10-2458] undeclared symbol signal_computation_ready, assumed default net type wire [C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.srcs/sim_1/new/tb.v:11]
+INFO: [VRFC 10-2458] undeclared symbol Y, assumed default net type wire [C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.srcs/sim_1/new/tb.v:11]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.sim/sim_1/behav'
+Vivado Simulator 2016.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.4/bin/unwrapped/win64.o/xelab.exe -wto c0c54b3e7c30476994164df66eb97e7f --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot TB5_behav xil_defaultlib.TB5 xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 1 differs from formal bit length 32 for port Y [C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.srcs/sim_1/new/tb.v:11]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.multiplicator
+Compiling module xil_defaultlib.TB5
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot TB5_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+Vivado Simulator 2016.4
+Time resolution is 1 ps
+relaunch_sim
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'TB5' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.sim/sim_1/behav'
+"xvlog -m64 --relax -prj TB5_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.srcs/sources_1/new/multiplicator.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module multiplicator
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.srcs/sim_1/new/tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module TB5
+INFO: [VRFC 10-2458] undeclared symbol signal_computation_ready, assumed default net type wire [C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.srcs/sim_1/new/tb.v:11]
+INFO: [VRFC 10-2458] undeclared symbol Y, assumed default net type wire [C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.srcs/sim_1/new/tb.v:11]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.sim/sim_1/behav'
+Vivado Simulator 2016.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.4/bin/unwrapped/win64.o/xelab.exe -wto c0c54b3e7c30476994164df66eb97e7f --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot TB5_behav xil_defaultlib.TB5 xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 1 differs from formal bit length 32 for port Y [C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.srcs/sim_1/new/tb.v:11]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.multiplicator
+Compiling module xil_defaultlib.TB5
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot TB5_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+Vivado Simulator 2016.4
+Time resolution is 1 ps
+relaunch_sim
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'TB5' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.sim/sim_1/behav'
+"xvlog -m64 --relax -prj TB5_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.srcs/sources_1/new/multiplicator.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module multiplicator
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.srcs/sim_1/new/tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module TB5
+INFO: [VRFC 10-2458] undeclared symbol signal_computation_ready, assumed default net type wire [C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.srcs/sim_1/new/tb.v:11]
+INFO: [VRFC 10-2458] undeclared symbol Y, assumed default net type wire [C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.srcs/sim_1/new/tb.v:11]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.sim/sim_1/behav'
+Vivado Simulator 2016.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.4/bin/unwrapped/win64.o/xelab.exe -wto c0c54b3e7c30476994164df66eb97e7f --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot TB5_behav xil_defaultlib.TB5 xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 1 differs from formal bit length 32 for port Y [C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.srcs/sim_1/new/tb.v:11]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.multiplicator
+Compiling module xil_defaultlib.TB5
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot TB5_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+Vivado Simulator 2016.4
+Time resolution is 1 ps
+relaunch_sim
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'TB5' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.sim/sim_1/behav'
+"xvlog -m64 --relax -prj TB5_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.srcs/sources_1/new/multiplicator.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module multiplicator
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.srcs/sim_1/new/tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module TB5
+INFO: [VRFC 10-2458] undeclared symbol signal_computation_ready, assumed default net type wire [C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.srcs/sim_1/new/tb.v:11]
+INFO: [VRFC 10-2458] undeclared symbol Y, assumed default net type wire [C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.srcs/sim_1/new/tb.v:11]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.sim/sim_1/behav'
+Vivado Simulator 2016.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.4/bin/unwrapped/win64.o/xelab.exe -wto c0c54b3e7c30476994164df66eb97e7f --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot TB5_behav xil_defaultlib.TB5 xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 1 differs from formal bit length 32 for port Y [C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.srcs/sim_1/new/tb.v:11]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.multiplicator
+Compiling module xil_defaultlib.TB5
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot TB5_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+Vivado Simulator 2016.4
+Time resolution is 1 ps
+relaunch_sim
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'TB5' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.sim/sim_1/behav'
+"xvlog -m64 --relax -prj TB5_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.srcs/sources_1/new/multiplicator.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module multiplicator
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.srcs/sim_1/new/tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module TB5
+INFO: [VRFC 10-2458] undeclared symbol signal_computation_ready, assumed default net type wire [C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.srcs/sim_1/new/tb.v:11]
+INFO: [VRFC 10-2458] undeclared symbol Y, assumed default net type wire [C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.srcs/sim_1/new/tb.v:11]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.sim/sim_1/behav'
+Vivado Simulator 2016.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.4/bin/unwrapped/win64.o/xelab.exe -wto c0c54b3e7c30476994164df66eb97e7f --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot TB5_behav xil_defaultlib.TB5 xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 1 differs from formal bit length 32 for port Y [C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.srcs/sim_1/new/tb.v:11]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.multiplicator
+Compiling module xil_defaultlib.TB5
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot TB5_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+Vivado Simulator 2016.4
+Time resolution is 1 ps
+relaunch_sim
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'TB5' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.sim/sim_1/behav'
+"xvlog -m64 --relax -prj TB5_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.srcs/sources_1/new/multiplicator.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module multiplicator
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.srcs/sim_1/new/tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module TB5
+INFO: [VRFC 10-2458] undeclared symbol signal_computation_ready, assumed default net type wire [C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.srcs/sim_1/new/tb.v:11]
+INFO: [VRFC 10-2458] undeclared symbol Y, assumed default net type wire [C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.srcs/sim_1/new/tb.v:11]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.sim/sim_1/behav'
+Vivado Simulator 2016.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.4/bin/unwrapped/win64.o/xelab.exe -wto c0c54b3e7c30476994164df66eb97e7f --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot TB5_behav xil_defaultlib.TB5 xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 1 differs from formal bit length 32 for port Y [C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.srcs/sim_1/new/tb.v:11]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.multiplicator
+Compiling module xil_defaultlib.TB5
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot TB5_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+Vivado Simulator 2016.4
+Time resolution is 1 ps
+relaunch_sim
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'TB5' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.sim/sim_1/behav'
+"xvlog -m64 --relax -prj TB5_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.srcs/sources_1/new/multiplicator.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module multiplicator
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.srcs/sim_1/new/tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module TB5
+INFO: [VRFC 10-2458] undeclared symbol signal_computation_ready, assumed default net type wire [C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.srcs/sim_1/new/tb.v:11]
+INFO: [VRFC 10-2458] undeclared symbol Y, assumed default net type wire [C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.srcs/sim_1/new/tb.v:11]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.sim/sim_1/behav'
+Vivado Simulator 2016.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.4/bin/unwrapped/win64.o/xelab.exe -wto c0c54b3e7c30476994164df66eb97e7f --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot TB5_behav xil_defaultlib.TB5 xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 1 differs from formal bit length 32 for port Y [C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.srcs/sim_1/new/tb.v:11]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.multiplicator
+Compiling module xil_defaultlib.TB5
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot TB5_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+Vivado Simulator 2016.4
+Time resolution is 1 ps
+relaunch_sim
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'TB5' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.sim/sim_1/behav'
+"xvlog -m64 --relax -prj TB5_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.srcs/sources_1/new/multiplicator.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module multiplicator
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.srcs/sim_1/new/tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module TB5
+INFO: [VRFC 10-2458] undeclared symbol signal_computation_ready, assumed default net type wire [C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.srcs/sim_1/new/tb.v:11]
+INFO: [VRFC 10-2458] undeclared symbol Y, assumed default net type wire [C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.srcs/sim_1/new/tb.v:11]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.sim/sim_1/behav'
+Vivado Simulator 2016.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.4/bin/unwrapped/win64.o/xelab.exe -wto c0c54b3e7c30476994164df66eb97e7f --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot TB5_behav xil_defaultlib.TB5 xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 1 differs from formal bit length 32 for port Y [C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.srcs/sim_1/new/tb.v:11]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.multiplicator
+Compiling module xil_defaultlib.TB5
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot TB5_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+Vivado Simulator 2016.4
+Time resolution is 1 ps
+relaunch_sim
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'TB5' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.sim/sim_1/behav'
+"xvlog -m64 --relax -prj TB5_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.srcs/sources_1/new/multiplicator.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module multiplicator
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.srcs/sim_1/new/tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module TB5
+INFO: [VRFC 10-2458] undeclared symbol signal_computation_ready, assumed default net type wire [C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.srcs/sim_1/new/tb.v:11]
+INFO: [VRFC 10-2458] undeclared symbol Y, assumed default net type wire [C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.srcs/sim_1/new/tb.v:11]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.sim/sim_1/behav'
+Vivado Simulator 2016.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.4/bin/unwrapped/win64.o/xelab.exe -wto c0c54b3e7c30476994164df66eb97e7f --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot TB5_behav xil_defaultlib.TB5 xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 1 differs from formal bit length 32 for port Y [C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.srcs/sim_1/new/tb.v:11]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.multiplicator
+Compiling module xil_defaultlib.TB5
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot TB5_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+Vivado Simulator 2016.4
+Time resolution is 1 ps
+relaunch_sim
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'TB5' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.sim/sim_1/behav'
+"xvlog -m64 --relax -prj TB5_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.srcs/sources_1/new/multiplicator.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module multiplicator
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.srcs/sim_1/new/tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module TB5
+INFO: [VRFC 10-2458] undeclared symbol signal_computation_ready, assumed default net type wire [C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.srcs/sim_1/new/tb.v:11]
+INFO: [VRFC 10-2458] undeclared symbol Y, assumed default net type wire [C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.srcs/sim_1/new/tb.v:11]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.sim/sim_1/behav'
+Vivado Simulator 2016.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.4/bin/unwrapped/win64.o/xelab.exe -wto c0c54b3e7c30476994164df66eb97e7f --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot TB5_behav xil_defaultlib.TB5 xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 1 differs from formal bit length 32 for port Y [C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.srcs/sim_1/new/tb.v:11]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.multiplicator
+Compiling module xil_defaultlib.TB5
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot TB5_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+Vivado Simulator 2016.4
+Time resolution is 1 ps
+relaunch_sim
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'TB5' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.sim/sim_1/behav'
+"xvlog -m64 --relax -prj TB5_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.srcs/sources_1/new/multiplicator.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module multiplicator
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.srcs/sim_1/new/tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module TB5
+INFO: [VRFC 10-2458] undeclared symbol signal_computation_ready, assumed default net type wire [C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.srcs/sim_1/new/tb.v:11]
+INFO: [VRFC 10-2458] undeclared symbol Y, assumed default net type wire [C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.srcs/sim_1/new/tb.v:11]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.sim/sim_1/behav'
+Vivado Simulator 2016.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.4/bin/unwrapped/win64.o/xelab.exe -wto c0c54b3e7c30476994164df66eb97e7f --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot TB5_behav xil_defaultlib.TB5 xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 1 differs from formal bit length 32 for port Y [C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.srcs/sim_1/new/tb.v:11]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.multiplicator
+Compiling module xil_defaultlib.TB5
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot TB5_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+Vivado Simulator 2016.4
+Time resolution is 1 ps
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 1000 us
+relaunch_sim
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'TB5' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.sim/sim_1/behav'
+"xvlog -m64 --relax -prj TB5_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.srcs/sources_1/new/multiplicator.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module multiplicator
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.srcs/sim_1/new/tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module TB5
+INFO: [VRFC 10-2458] undeclared symbol signal_computation_ready, assumed default net type wire [C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.srcs/sim_1/new/tb.v:11]
+INFO: [VRFC 10-2458] undeclared symbol Y, assumed default net type wire [C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.srcs/sim_1/new/tb.v:11]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.sim/sim_1/behav'
+Vivado Simulator 2016.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.4/bin/unwrapped/win64.o/xelab.exe -wto c0c54b3e7c30476994164df66eb97e7f --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot TB5_behav xil_defaultlib.TB5 xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 1 differs from formal bit length 32 for port Y [C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.srcs/sim_1/new/tb.v:11]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.multiplicator
+Compiling module xil_defaultlib.TB5
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot TB5_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+Vivado Simulator 2016.4
+Time resolution is 1 ps
+run 1000 us
+relaunch_sim
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'TB5' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.sim/sim_1/behav'
+"xvlog -m64 --relax -prj TB5_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.srcs/sources_1/new/multiplicator.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module multiplicator
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.srcs/sim_1/new/tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module TB5
+INFO: [VRFC 10-2458] undeclared symbol signal_computation_ready, assumed default net type wire [C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.srcs/sim_1/new/tb.v:11]
+INFO: [VRFC 10-2458] undeclared symbol Y, assumed default net type wire [C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.srcs/sim_1/new/tb.v:11]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.sim/sim_1/behav'
+Vivado Simulator 2016.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.4/bin/unwrapped/win64.o/xelab.exe -wto c0c54b3e7c30476994164df66eb97e7f --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot TB5_behav xil_defaultlib.TB5 xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 1 differs from formal bit length 32 for port Y [C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.srcs/sim_1/new/tb.v:11]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.multiplicator
+Compiling module xil_defaultlib.TB5
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot TB5_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+Vivado Simulator 2016.4
+Time resolution is 1 ps
+run 1000 us
+relaunch_sim
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'TB5' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.sim/sim_1/behav'
+"xvlog -m64 --relax -prj TB5_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.srcs/sources_1/new/multiplicator.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module multiplicator
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.srcs/sim_1/new/tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module TB5
+INFO: [VRFC 10-2458] undeclared symbol signal_computation_ready, assumed default net type wire [C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.srcs/sim_1/new/tb.v:11]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.sim/sim_1/behav'
+Vivado Simulator 2016.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.4/bin/unwrapped/win64.o/xelab.exe -wto c0c54b3e7c30476994164df66eb97e7f --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot TB5_behav xil_defaultlib.TB5 xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.multiplicator
+Compiling module xil_defaultlib.TB5
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot TB5_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+Vivado Simulator 2016.4
+Time resolution is 1 ps
+run 1000 us
+relaunch_sim
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'TB5' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.sim/sim_1/behav'
+"xvlog -m64 --relax -prj TB5_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.srcs/sources_1/new/multiplicator.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module multiplicator
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.srcs/sim_1/new/tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module TB5
+INFO: [VRFC 10-2458] undeclared symbol signal_computation_ready, assumed default net type wire [C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.srcs/sim_1/new/tb.v:11]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.sim/sim_1/behav'
+Vivado Simulator 2016.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.4/bin/unwrapped/win64.o/xelab.exe -wto c0c54b3e7c30476994164df66eb97e7f --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot TB5_behav xil_defaultlib.TB5 xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.multiplicator
+Compiling module xil_defaultlib.TB5
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot TB5_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+Vivado Simulator 2016.4
+Time resolution is 1 ps
+relaunch_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:07 . Memory (MB): peak = 1071.789 ; gain = 0.000
+run 1000 us
+relaunch_sim
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'TB5' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.sim/sim_1/behav'
+"xvlog -m64 --relax -prj TB5_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.srcs/sources_1/new/multiplicator.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module multiplicator
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.srcs/sim_1/new/tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module TB5
+INFO: [VRFC 10-2458] undeclared symbol signal_computation_ready, assumed default net type wire [C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.srcs/sim_1/new/tb.v:11]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.sim/sim_1/behav'
+Vivado Simulator 2016.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.4/bin/unwrapped/win64.o/xelab.exe -wto c0c54b3e7c30476994164df66eb97e7f --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot TB5_behav xil_defaultlib.TB5 xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.multiplicator
+Compiling module xil_defaultlib.TB5
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot TB5_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+Vivado Simulator 2016.4
+Time resolution is 1 ps
+run 1000 us
+run 1000 us
+relaunch_sim
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'TB5' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.sim/sim_1/behav'
+"xvlog -m64 --relax -prj TB5_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.srcs/sources_1/new/multiplicator.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module multiplicator
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.srcs/sim_1/new/tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module TB5
+INFO: [VRFC 10-2458] undeclared symbol signal_computation_ready, assumed default net type wire [C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.srcs/sim_1/new/tb.v:11]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.sim/sim_1/behav'
+Vivado Simulator 2016.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.4/bin/unwrapped/win64.o/xelab.exe -wto c0c54b3e7c30476994164df66eb97e7f --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot TB5_behav xil_defaultlib.TB5 xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.multiplicator
+Compiling module xil_defaultlib.TB5
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot TB5_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+Vivado Simulator 2016.4
+Time resolution is 1 ps
+run 1000 us
+run 1000 us
+relaunch_sim
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'TB5' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.sim/sim_1/behav'
+"xvlog -m64 --relax -prj TB5_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.srcs/sources_1/new/multiplicator.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module multiplicator
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.srcs/sim_1/new/tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module TB5
+INFO: [VRFC 10-2458] undeclared symbol signal_computation_ready, assumed default net type wire [C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.srcs/sim_1/new/tb.v:11]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.sim/sim_1/behav'
+Vivado Simulator 2016.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.4/bin/unwrapped/win64.o/xelab.exe -wto c0c54b3e7c30476994164df66eb97e7f --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot TB5_behav xil_defaultlib.TB5 xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.multiplicator
+Compiling module xil_defaultlib.TB5
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot TB5_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+Vivado Simulator 2016.4
+Time resolution is 1 ps
+ERROR: [filemgmt 56-23] Illegal GUI graph access between updates.
+ERROR: [filemgmt 20-1788] Illegal access of HADGNode between graph update events.
+ERROR: [filemgmt 20-1788] Illegal access of HADGNode between graph update events.
+ERROR: [filemgmt 56-23] Illegal GUI graph access between updates.
+run 1000 us
+relaunch_sim
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'TB5' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.sim/sim_1/behav'
+"xvlog -m64 --relax -prj TB5_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.srcs/sources_1/new/multiplicator.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module multiplicator
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.srcs/sim_1/new/tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module TB5
+INFO: [VRFC 10-2458] undeclared symbol signal_computation_ready, assumed default net type wire [C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.srcs/sim_1/new/tb.v:11]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.sim/sim_1/behav'
+Vivado Simulator 2016.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.4/bin/unwrapped/win64.o/xelab.exe -wto c0c54b3e7c30476994164df66eb97e7f --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot TB5_behav xil_defaultlib.TB5 xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.multiplicator
+Compiling module xil_defaultlib.TB5
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot TB5_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+Vivado Simulator 2016.4
+Time resolution is 1 ps
+run 200 us
+relaunch_sim
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'TB5' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.sim/sim_1/behav'
+"xvlog -m64 --relax -prj TB5_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.srcs/sources_1/new/multiplicator.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module multiplicator
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.srcs/sim_1/new/tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module TB5
+INFO: [VRFC 10-2458] undeclared symbol signal_computation_ready, assumed default net type wire [C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.srcs/sim_1/new/tb.v:11]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.sim/sim_1/behav'
+Vivado Simulator 2016.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.4/bin/unwrapped/win64.o/xelab.exe -wto c0c54b3e7c30476994164df66eb97e7f --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot TB5_behav xil_defaultlib.TB5 xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.multiplicator
+Compiling module xil_defaultlib.TB5
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot TB5_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+Vivado Simulator 2016.4
+Time resolution is 1 ps
+run 40 us
+relaunch_sim
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'TB5' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.sim/sim_1/behav'
+"xvlog -m64 --relax -prj TB5_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.srcs/sources_1/new/multiplicator.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module multiplicator
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.srcs/sim_1/new/tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module TB5
+INFO: [VRFC 10-2458] undeclared symbol signal_computation_ready, assumed default net type wire [C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.srcs/sim_1/new/tb.v:11]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.sim/sim_1/behav'
+Vivado Simulator 2016.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.4/bin/unwrapped/win64.o/xelab.exe -wto c0c54b3e7c30476994164df66eb97e7f --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot TB5_behav xil_defaultlib.TB5 xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.multiplicator
+Compiling module xil_defaultlib.TB5
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot TB5_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+Vivado Simulator 2016.4
+Time resolution is 1 ps
+relaunch_sim
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'TB5' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.sim/sim_1/behav'
+"xvlog -m64 --relax -prj TB5_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.srcs/sources_1/new/multiplicator.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module multiplicator
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.srcs/sim_1/new/tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module TB5
+INFO: [VRFC 10-2458] undeclared symbol signal_computation_ready, assumed default net type wire [C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.srcs/sim_1/new/tb.v:11]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.sim/sim_1/behav'
+Vivado Simulator 2016.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.4/bin/unwrapped/win64.o/xelab.exe -wto c0c54b3e7c30476994164df66eb97e7f --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot TB5_behav xil_defaultlib.TB5 xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.multiplicator
+Compiling module xil_defaultlib.TB5
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot TB5_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+Vivado Simulator 2016.4
+Time resolution is 1 ps
+run 40 us
+relaunch_sim
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'TB5' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.sim/sim_1/behav'
+"xvlog -m64 --relax -prj TB5_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.srcs/sources_1/new/multiplicator.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module multiplicator
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.srcs/sim_1/new/tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module TB5
+INFO: [VRFC 10-2458] undeclared symbol signal_computation_ready, assumed default net type wire [C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.srcs/sim_1/new/tb.v:11]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.sim/sim_1/behav'
+Vivado Simulator 2016.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.4/bin/unwrapped/win64.o/xelab.exe -wto c0c54b3e7c30476994164df66eb97e7f --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot TB5_behav xil_defaultlib.TB5 xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.multiplicator
+Compiling module xil_defaultlib.TB5
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot TB5_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+Vivado Simulator 2016.4
+Time resolution is 1 ps
+run 40 us
+relaunch_sim
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'TB5' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.sim/sim_1/behav'
+"xvlog -m64 --relax -prj TB5_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.srcs/sources_1/new/multiplicator.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module multiplicator
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.srcs/sim_1/new/tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module TB5
+INFO: [VRFC 10-2458] undeclared symbol signal_computation_ready, assumed default net type wire [C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.srcs/sim_1/new/tb.v:11]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.sim/sim_1/behav'
+Vivado Simulator 2016.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.4/bin/unwrapped/win64.o/xelab.exe -wto c0c54b3e7c30476994164df66eb97e7f --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot TB5_behav xil_defaultlib.TB5 xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.multiplicator
+Compiling module xil_defaultlib.TB5
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot TB5_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+Vivado Simulator 2016.4
+Time resolution is 1 ps
+run 40 us
+relaunch_sim
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'TB5' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.sim/sim_1/behav'
+"xvlog -m64 --relax -prj TB5_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.srcs/sources_1/new/multiplicator.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module multiplicator
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.srcs/sim_1/new/tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module TB5
+INFO: [VRFC 10-2458] undeclared symbol signal_computation_ready, assumed default net type wire [C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.srcs/sim_1/new/tb.v:11]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.sim/sim_1/behav'
+Vivado Simulator 2016.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.4/bin/unwrapped/win64.o/xelab.exe -wto c0c54b3e7c30476994164df66eb97e7f --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot TB5_behav xil_defaultlib.TB5 xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.multiplicator
+Compiling module xil_defaultlib.TB5
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot TB5_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+Vivado Simulator 2016.4
+Time resolution is 1 ps
+run 40 us
+relaunch_sim
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'TB5' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.sim/sim_1/behav'
+"xvlog -m64 --relax -prj TB5_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.srcs/sources_1/new/multiplicator.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module multiplicator
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.srcs/sim_1/new/tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module TB5
+INFO: [VRFC 10-2458] undeclared symbol signal_computation_ready, assumed default net type wire [C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.srcs/sim_1/new/tb.v:11]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.sim/sim_1/behav'
+Vivado Simulator 2016.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.4/bin/unwrapped/win64.o/xelab.exe -wto c0c54b3e7c30476994164df66eb97e7f --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot TB5_behav xil_defaultlib.TB5 xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.multiplicator
+Compiling module xil_defaultlib.TB5
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot TB5_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+Vivado Simulator 2016.4
+Time resolution is 1 ps
+run 20 us
+relaunch_sim
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'TB5' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.sim/sim_1/behav'
+"xvlog -m64 --relax -prj TB5_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.srcs/sources_1/new/multiplicator.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module multiplicator
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.srcs/sim_1/new/tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module TB5
+INFO: [VRFC 10-2458] undeclared symbol signal_computation_ready, assumed default net type wire [C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.srcs/sim_1/new/tb.v:11]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.sim/sim_1/behav'
+Vivado Simulator 2016.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.4/bin/unwrapped/win64.o/xelab.exe -wto c0c54b3e7c30476994164df66eb97e7f --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot TB5_behav xil_defaultlib.TB5 xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.multiplicator
+Compiling module xil_defaultlib.TB5
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot TB5_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+Vivado Simulator 2016.4
+Time resolution is 1 ps
+run 10 us
+relaunch_sim
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'TB5' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.sim/sim_1/behav'
+"xvlog -m64 --relax -prj TB5_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.srcs/sources_1/new/multiplicator.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module multiplicator
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.srcs/sim_1/new/tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module TB5
+INFO: [VRFC 10-2458] undeclared symbol signal_computation_ready, assumed default net type wire [C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.srcs/sim_1/new/tb.v:11]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.sim/sim_1/behav'
+Vivado Simulator 2016.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.4/bin/unwrapped/win64.o/xelab.exe -wto c0c54b3e7c30476994164df66eb97e7f --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot TB5_behav xil_defaultlib.TB5 xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.multiplicator
+Compiling module xil_defaultlib.TB5
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot TB5_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+Vivado Simulator 2016.4
+Time resolution is 1 ps
+run 15 us
+relaunch_sim
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'TB5' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.sim/sim_1/behav'
+"xvlog -m64 --relax -prj TB5_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.srcs/sources_1/new/multiplicator.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module multiplicator
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.srcs/sim_1/new/tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module TB5
+INFO: [VRFC 10-2458] undeclared symbol signal_computation_ready, assumed default net type wire [C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.srcs/sim_1/new/tb.v:11]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.sim/sim_1/behav'
+Vivado Simulator 2016.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.4/bin/unwrapped/win64.o/xelab.exe -wto c0c54b3e7c30476994164df66eb97e7f --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot TB5_behav xil_defaultlib.TB5 xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.multiplicator
+Compiling module xil_defaultlib.TB5
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot TB5_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+Vivado Simulator 2016.4
+Time resolution is 1 ps
+run 15 us
+relaunch_sim
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'TB5' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.sim/sim_1/behav'
+"xvlog -m64 --relax -prj TB5_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.srcs/sources_1/new/multiplicator.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module multiplicator
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.srcs/sim_1/new/tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module TB5
+INFO: [VRFC 10-2458] undeclared symbol signal_computation_ready, assumed default net type wire [C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.srcs/sim_1/new/tb.v:11]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.sim/sim_1/behav'
+Vivado Simulator 2016.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.4/bin/unwrapped/win64.o/xelab.exe -wto c0c54b3e7c30476994164df66eb97e7f --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot TB5_behav xil_defaultlib.TB5 xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.multiplicator
+Compiling module xil_defaultlib.TB5
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot TB5_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+Vivado Simulator 2016.4
+Time resolution is 1 ps
+run 15 us
+save_wave_config {C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/TB5_behav.wcfg}
+add_files -fileset sim_1 -norecurse C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/TB5_behav.wcfg
+set_property xsim.view C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/TB5_behav.wcfg [get_filesets sim_1]
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon May 01 19:26:16 2017...

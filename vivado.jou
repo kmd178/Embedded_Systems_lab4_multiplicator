@@ -1,0 +1,88 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Sun Apr 30 18:44:02 2017
+# Process ID: 1732
+# Current directory: C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent4232 C:\Users\kmd17\Documents\GitHub\Embedded_Systems_Lab4_multiplicator\Embedded_Systems_Lab4_multiplicator.xpr
+# Log file: C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/vivado.log
+# Journal file: C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/Embedded_Systems_Lab4_multiplicator.xpr
+update_compile_order -fileset sim_1
+launch_simulation
+launch_simulation
+launch_simulation
+launch_simulation
+launch_simulation
+launch_simulation
+launch_simulation
+launch_simulation
+launch_simulation
+source TB5.tcl
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 1000 us
+relaunch_sim
+run 1000 us
+relaunch_sim
+run 1000 us
+relaunch_sim
+run 1000 us
+relaunch_sim
+run 1000 us
+relaunch_sim
+run 1000 us
+run 1000 us
+relaunch_sim
+run 1000 us
+run 1000 us
+relaunch_sim
+run 1000 us
+relaunch_sim
+run 200 us
+relaunch_sim
+run 40 us
+relaunch_sim
+relaunch_sim
+run 40 us
+relaunch_sim
+run 40 us
+relaunch_sim
+run 40 us
+relaunch_sim
+run 40 us
+relaunch_sim
+run 20 us
+relaunch_sim
+run 10 us
+relaunch_sim
+run 15 us
+relaunch_sim
+run 15 us
+relaunch_sim
+run 15 us
+save_wave_config {C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/TB5_behav.wcfg}
+add_files -fileset sim_1 -norecurse C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/TB5_behav.wcfg
+set_property xsim.view C:/Users/kmd17/Documents/GitHub/Embedded_Systems_Lab4_multiplicator/TB5_behav.wcfg [get_filesets sim_1]
+close_sim
